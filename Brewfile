@@ -2,7 +2,6 @@
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'stripe/stripe-cli'
 
 # Binaries
 brew 'awscli'
@@ -18,9 +17,16 @@ brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
+brew 'gradle'
+brew 'maven'
+brew 'jenv'
+brew 'openjdk@11'
+brew 'openjdk@17'
+brew 'node'
+brew 'plantuml'
+brew 'newvim'
+
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -41,6 +47,8 @@ cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
+cask 'font-meslo-lg-nerd-font'
+cask 'ghostty'
 cask 'github'
 cask 'google-chrome'
 cask 'helo'
@@ -51,6 +59,7 @@ cask 'loom'
 cask 'pastebot'
 cask 'screenflow'
 cask 'slack'
+cask 'spotify'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
@@ -59,7 +68,8 @@ cask 'transmit'
 cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
-cask 'zoom'
+cask 'zulu-jdk8'
+
 
 # Quicklook
 cask 'qlmarkdown'
